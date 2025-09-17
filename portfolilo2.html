@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Yamuna Priyadarshini Kadali — Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#0f1724;--card:#091126;--accent:#7dd3fc;--muted:#9fb2bd;--glass:rgba(255,255,255,0.03)}
+    *{box-sizing:border-box}
+    body{font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial; margin:0; background:linear-gradient(180deg,#071129 0%, #071a2a 60%); color:#ecf8fb}
+    .wrap{max-width:1000px;margin:36px auto;padding:28px;background:linear-gradient(180deg,rgba(255,255,255,0.02),rgba(255,255,255,0.01));border-radius:14px;box-shadow:0 10px 30px rgba(0,0,0,0.6)}
+    header{display:flex;gap:18px;align-items:center}
+    .avatar{width:96px;height:96px;border-radius:12px;background:linear-gradient(135deg,var(--accent),#60a5fa);display:flex;align-items:center;justify-content:center;font-weight:800;color:#042024;font-size:20px}
+    h1{margin:0;font-size:26px}
+    p.lead{margin:6px 0 0;color:var(--muted)}
+
+    .grid{display:grid;grid-template-columns:1fr 320px;gap:20px;margin-top:20px}
+    .card{background:var(--card);padding:18px;border-radius:12px}
+    h2{margin:0 0 10px;font-size:16px}
+
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .chip{background:var(--glass);padding:6px 10px;border-radius:999px;color:var(--muted);font-weight:600;font-size:13px}
+
+    .contact a{display:inline-block;margin-right:12px;color:var(--accent);text-decoration:none}
+    .btn{display:inline-block;background:var(--accent);color:#042024;padding:10px 14px;border-radius:10px;text-decoration:none;font-weight:700}
+
+    footer{margin-top:20px;color:var(--muted);font-size:13px;text-align:center}
+
+    @media (max-width:880px){.grid{grid-template-columns:1fr} .wrap{margin:12px;padding:14px}}
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <header>
+      <div class="avatar">YP</div>
+      <div>
+        <h1>Yamuna Priyadarshini Kadali</h1>
+        <p class="lead">BCA Student • Programming & Cloud Learner • Active in Community Projects</p>
+        <div style="margin-top:8px" class="contact">
+          <a href="mailto:Priyadharshinikadali20@gmail.com">Priyadharshinikadali20@gmail.com</a>
+          <span style="color:var(--muted);margin-left:8px">(+91) 9963479555</span>
+          <div style="color:var(--muted);margin-top:6px">5-123, Amalapuram</div>
+        </div>
+      </div>
+    </header>
+
+    <div class="grid">
+      <section class="card">
+        <h2>About</h2>
+        <p style="color:var(--muted);line-height:1.5">Motivated and detail-oriented BCA student with certifications in Python and C, hands-on experience in cloud projects, and a strong foundation in programming, communication and teamwork. Passionate about continuous learning and long-term goals in technology and public service.</p>
+
+        <div style="margin-top:14px">
+          <h2>Skills</h2>
+          <div class="skills">
+            <span class="chip">Python</span>
+            <span class="chip">C</span>
+            <span class="chip">Java (basic)</span>
+            <span class="chip">Git</span>
+            <span class="chip">Web fundamentals</span>
+            <span class="chip">Communication</span>
+          </div>
+        </div>
+
+        <div style="margin-top:14px">
+          <h2>Languages</h2>
+          <p style="color:var(--muted);margin:6px 0">Telugu • English • Tamil • Basic Hindi • Basic Japanese</p>
+        </div>
+
+        <div style="margin-top:14px">
+          <h2>Projects</h2>
+          <div style="color:var(--muted);line-height:1.5">
+            <strong>Azure To-Do List</strong> — Developed a cloud-based to-do application as part of training, using Azure services for backend functions and storage.<br>
+            <strong>Community Service Project</strong> — Participated in planning and execution of a local awareness initiative.
+          </div>
+        </div>
+
+        <div style="margin-top:14px">
+          <a class="btn" href="/mnt/data/Resume ( PRIYA).pdf" download>Download CV (PDF)</a>
+        </div>
+      </section>
+
+      <aside class="card">
+        <h2>Education</h2>
+        <div style="margin-top:8px;color:var(--muted)">
+          <p style="margin:6px 0"><strong>Aditya Degree College</strong><br> BCA (2023 — 2026) — Pursuing (Expected 2026)</p>
+          <p style="margin:6px 0"><strong>Aditya Junior College</strong><br> Intermediate (2021 — 2023) — 64.7%</p>
+          <p style="margin:6px 0"><strong>M.G.M. High School</strong><br> Secondary (2020 — 2021) — GPA: 6.8</p>
+        </div>
+
+        <div style="margin-top:12px">
+          <h2>Certifications</h2>
+          <ul style="color:var(--muted);margin:6px 0 0;padding-left:18px">
+            <li>Python Essentials 1 & 2</li>
+            <li>Infosys / Mepro Pearson Certifications (Python, C)</li>
+            <li>Cyber Security (training)</li>
+            <li>Azure Certification</li>
+            <li>NCS DigiShaksham / Digital Innovation</li>
+          </ul>
+        </div>
+
+        <div style="margin-top:12px">
+          <h2>Interests & Strengths</h2>
+          <p style="color:var(--muted);margin:6px 0">Essay writing, drawing, singing, teamwork, and strong typing skills. Keen on roles that combine technology with community impact.</p>
+        </div>
+
+      </aside>
+    </div>
+
+    <section class="card" style="margin-top:18px">
+      <h2>Declaration</h2>
+      <p style="color:var(--muted);margin:6px 0">I hereby declare that the information provided is true and correct to the best of my knowledge.</p>
+    </section>
+
+    <footer>
+      Built with ♥ • <span style="color:var(--muted)">Generated from uploaded resume</span>
+    </footer>
+  </main>
+</body>
+</html>
